@@ -34,7 +34,7 @@ library(dplyr)
 library(ggplot2)
 ```
 
-### **Loading and preprocessing the data**
+### *Loading and preprocessing the data*
 
 ##### First, we read the data in from the zipped csv file and omit NAs:
 
