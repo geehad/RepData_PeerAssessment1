@@ -177,7 +177,7 @@ data_imputed$type_of_day <- as.factor(data_imputed$type_of_day)
 
 ```{r, echo=TRUE}
 # calculate average steps by interval across all days
-df_imputed_steps_by_interval <- aggregate(steps ~ interval + type_of_day, data_imputed, mean)
+df_imputed_steps_by_interval <- aggregate(steps ~ interval + type_of_day,data_imputed, mean)
 
 # creat a plot
 qplot(interval, 
